@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="343.25" y="64.0">Equipment</node>
+    <node x="-64.0" y="736.0">Deal</node>
+    <node x="124.0" y="444.0">contentType</node>
+    <node x="169.0" y="142.0">Armory</node>
+    <node x="567.0" y="590.0">isDefeat</node>
+    <node x="187.41249999999997" y="-14.0">Entity</node>
+    <node x="87.0" y="663.0">content</node>
+    <node x="-64.0" y="590.0">HeroType</node>
+    <node x="236.0" y="663.0">Sound</node>
+    <node x="420.0" y="142.0">Potion</node>
+    <node x="280.0" y="517.0">GameType</node>
+    <node x="-64.0" y="444.0">MonsterType</node>
+    <node x="190.0" y="736.0">Rule</node>
+    <node x="40.0" y="142.0">Monster</node>
+    <node x="-64.0" y="142.0">Hero</node>
+    <node x="-64.0" y="663.0">ReadTxt</node>
+    <node x="-9.5" y="215.0">Main</node>
+    <node x="414.0" y="590.0">HeroList</node>
+    <node x="189.5" y="215.0">Market</node>
+    <node x="450.0" y="517.0">PotionList</node>
+    <node x="536.0" y="142.0">Spell</node>
+    <node x="565.0" y="215.0">MonsterAttack</node>
+    <node x="516.0" y="663.0">Game</node>
+    <node x="63.0" y="736.0">Map</node>
+    <node x="291.0" y="142.0">Weapon</node>
+    <node x="176.0" y="293.0">SubMarket</node>
+    <node x="307.0" y="444.0">WeaponList</node>
+    <node x="652.0" y="663.0">Battle</node>
+    <node x="-64.0" y="371.0">LMHGameOperation</node>
+    <node x="484.0" y="444.0">MonsterList</node>
+    <node x="377.0" y="663.0">defeat</node>
+    <node x="261.0" y="590.0">SpellList</node>
+    <node x="-64.0" y="517.0">HeroAttack</node>
+    <node x="-47.5" y="293.0">GameOperation</node>
+    <node x="99.0" y="590.0">Inventory</node>
+    <node x="615.0" y="517.0">SpellType</node>
+    <node x="348.0" y="215.0">PotionAffectType</node>
+    <node x="-15.087500000000034" y="64.0">Status</node>
+    <node x="109.0" y="517.0">ArmoryList</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="Status" target="Entity" relationship="GENERALIZATION">
+      <point x="0.0" y="-14.0" />
+      <point x="31.912499999999966" y="39.0" />
+      <point x="232.41249999999997" y="39.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="Potion" target="Equipment" relationship="GENERALIZATION">
+      <point x="0.0" y="-14.0" />
+      <point x="468.0" y="117.0" />
+      <point x="406.75" y="117.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="GameOperation" target="Main" relationship="GENERALIZATION">
+      <point x="0.0" y="-14.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="Equipment" target="Entity" relationship="GENERALIZATION">
+      <point x="0.0" y="-14.0" />
+      <point x="406.75" y="39.0" />
+      <point x="232.41249999999997" y="39.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="Monster" target="Status" relationship="GENERALIZATION">
+      <point x="0.0" y="-14.0" />
+      <point x="94.5" y="117.0" />
+      <point x="31.912499999999966" y="117.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="Armory" target="Equipment" relationship="GENERALIZATION">
+      <point x="0.0" y="-14.0" />
+      <point x="220.0" y="117.0" />
+      <point x="406.75" y="117.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="LMHGameOperation" target="GameOperation" relationship="GENERALIZATION">
+      <point x="0.0" y="-14.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="SubMarket" target="Market" relationship="GENERALIZATION">
+      <point x="0.0" y="-14.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="Hero" target="Status" relationship="GENERALIZATION">
+      <point x="0.0" y="-14.0" />
+      <point x="-22.0" y="117.0" />
+      <point x="31.912499999999966" y="117.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="Weapon" target="Equipment" relationship="GENERALIZATION">
+      <point x="0.0" y="-14.0" />
+      <point x="345.5" y="117.0" />
+      <point x="406.75" y="117.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="Spell" target="Equipment" relationship="GENERALIZATION">
+      <point x="0.0" y="-14.0" />
+      <point x="578.0" y="117.0" />
+      <point x="406.75" y="117.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="0.7368421052631579" showDependencies="false" x="349.0" y="385.0" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
